@@ -1,0 +1,204 @@
+:root {
+  --layout-width: 45rem;
+  --main-pad: 1rem;
+  --main-color: #FFA726;
+  --text-color: #212121;
+}
+
+@font-face {
+  font-family: 'IRANSans';
+  src: url('../fonts/IRANSansWeb.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0600–06FF;
+}
+
+@font-face {
+  font-family: 'IRANSans';
+  src: url('../fonts/IRANSansWeb_Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  unicode-range: U+0600–06FF;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font: 100%/1.9 'IRANSans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.header + * {
+  flex: 1;
+}
+
+.main-container {
+  max-width: var(--layout-width);
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  padding: 3rem var(--main-pad);
+}
+
+.site-title {
+  margin: 0 auto 1em;
+  text-align: center;
+}
+
+.site-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-item {
+  padding: 1em;
+  margin: 0 .3em;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Post List */
+
+.post-list {
+  padding: 1rem var(--main-pad);
+  margin: 0;
+}
+
+.post-list .summary {
+  color: #757575;
+  margin-top: .5em;
+  font-size: .95em;
+  text-align: justify;
+}
+
+.post-list-item {
+  list-style-type: none;
+  margin-bottom: 6em;
+}
+
+.post-list-date {
+  display: block;
+  color: #9e9e9e;
+  font-size: .9em;
+}
+
+.post-list-link {
+  text-decoration: none;
+  font-size: 2em;
+  color: var(--main-color);
+}
+
+/* Post */
+
+.post {
+  padding: var(--main-pad);
+  color: var(--text-color);
+}
+
+.post h2,
+.post h3,
+.post h4 {
+  margin-top: 2em;
+}
+
+.post img {
+  display: block;
+  margin: 4em auto;
+  max-width: 100%;
+}
+
+.post p {
+  text-align: justify;
+}
+
+.post-title {
+  font-size: 3em;
+  margin: 0;
+  color: var(--main-color);
+}
+
+.post-date {
+  display: block;
+  color: #9e9e9e;
+  font-size: .9em;
+  margin-bottom: 4em;
+}
+
+.post a {
+  text-decoration: none;
+  color: var(--main-color);
+  border-bottom: 1px dotted currentColor;
+}
+
+.post pre {
+  direction: ltr;
+  background: #f5f2f0 !important;
+  padding: 1em;
+  margin: 2em 0;
+  overflow: auto;
+  text-shadow: 0 1px white;
+}
+
+.post code {
+  direction: ltr;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  hyphens: none;
+}
+
+.post blockquote {
+  color: #757575;
+  margin: 2em 0;
+  padding: 1em;
+  background-color: #fffcf8;
+  border-right: 7px solid var(--main-color);
+}
+
+.post .comments {
+  margin-top: 5em;
+}
+
+.footer {
+  margin: 5em auto 3em;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 0.8em;
+  text-align: center;
+  color: #9e9e9e;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 4em auto 0;
+  padding: 0;
+}
+
+.social-item {
+  margin: 0 1em;
+  list-style-type: none;
+}
+
+.social-link {
+  display: block;
+  text-decoration: none;
+  border: none !important;
+}
+
+.social-link svg {
+  width: 30px;
+}
