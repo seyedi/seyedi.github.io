@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>نوشته‌ها on بلاگ مجتبی سیدی</title>
-    <link>seyedi.github.io/posts/</link>
+    <link>https://seyedi.github.io/posts/</link>
     <description>Recent content in نوشته‌ها on بلاگ مجتبی سیدی</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-IR</language>
     <lastBuildDate>Thu, 25 Apr 2019 21:09:10 +0430</lastBuildDate>
     
-	<atom:link href="seyedi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seyedi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>سلام دنیا</title>
-      <link>seyedi.github.io/posts/hello-world/</link>
+      <link>https://seyedi.github.io/posts/hello-world/</link>
       <pubDate>Wed, 24 Apr 2019 20:26:47 +0430</pubDate>
       
-      <guid>seyedi.github.io/posts/hello-world/</guid>
+      <guid>https://seyedi.github.io/posts/hello-world/</guid>
       <description> Hello!!! </description>
     </item>
     
