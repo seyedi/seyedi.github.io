@@ -4,6 +4,7 @@
   --layout-width: 45rem;
   --main-pad: 1rem;
   --main-color: #FFA726;
+  --main-color: #3389db;
   --text-color: #212121;
 }
 
@@ -159,10 +160,10 @@ body {
 }
 
 .post blockquote {
-  color: #757575;
+  color: #424242;
   margin: 2em 0;
   padding: 1em;
-  background-color: #fffcf8;
+  background-color: #ebf5ff;
   border-right: 7px solid var(--main-color);
 }
 
@@ -615,4 +616,9 @@ body {
     width: 350px;
     left: 80px;
   }
+}
+
+
+a.dsq-brlink {
+  opacity: 0;
 }
