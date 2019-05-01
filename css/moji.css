@@ -622,3 +622,13 @@ body {
 a.dsq-brlink {
   opacity: 0;
 }
+
+.twitter-box {
+  display: flex;
+  align-items: center;
+  margin: 5em 0;
+}
+
+.twitter-box span {
+  margin: 0 .5em;
+}
