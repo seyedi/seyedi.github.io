@@ -8,6 +8,16 @@
   --text-color: #212121;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --layout-width: 45rem;
+    --main-pad: 1rem;
+    --main-color: #FFA726;
+    --main-color: #3389db;
+    --text-color: #212121;
+  }
+}
+
 @font-face {
   font-family: 'IRANSans';
   src: url('../fonts/IRANSansWeb.woff2') format('woff2');
@@ -626,9 +636,25 @@ a.dsq-brlink {
 .twitter-box {
   display: flex;
   align-items: center;
-  margin: 5em 0;
+  background: #f4f2f0;
+  border-radius: 3px;
+  margin-top: 3em;
+  padding: 1.25em;
 }
 
-.twitter-box span {
+.twitter-box span,
+.twitter-box a {
   margin: 0 .5em;
 }
+
+.twitter-box svg {
+  margin-inline-end: 1em;
+}
+
+
+.twitter-box a {
+  font-size: .95em;
+  border: none;
+  color: #55acee;
+}
+
