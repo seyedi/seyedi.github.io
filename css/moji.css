@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-  --layout-width: 35rem;
+  --layout-width: 36rem;
   --main-pad: 1rem;
   --main-color: #FFA726;
   --main-color: #3389db;
@@ -224,7 +224,7 @@ body.posts .header {
 
 .post-list-item {
   list-style-type: none;
-  margin-bottom: 6em;
+  margin-bottom: 4em;
 }
 
 .post-list-date {
@@ -264,7 +264,7 @@ body.posts .header {
 }
 
 .post-title {
-  font-size: 3em;
+  font-size: 2em;
   margin: 0;
   color: var(--main-color);
 }
@@ -318,6 +318,7 @@ body.posts .header {
   text-align: center;
   color: #9e9e9e;
   text-shadow: 0 1px 0 #fff;
+  direction: ltr;
 }
 
 .social {

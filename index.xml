@@ -2,21 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>بلاگ مجتبی سیدی on Mojtaba Seyedi</title>
-    <link>https://seyedi.github.io/</link>
+    <link>https://mojtabaseyedi.com/</link>
     <description>Recent content in بلاگ مجتبی سیدی on Mojtaba Seyedi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 01 May 2019 18:36:49 +0430</lastBuildDate>
     
-	<atom:link href="https://seyedi.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mojtabaseyedi.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>تا بماند یادگار: آموزش دوچرخه سواری و شنا</title>
+      <link>https://mojtabaseyedi.com/posts/journal-teaching-swimming-and-cycling/</link>
+      <pubDate>Sun, 12 Jul 2020 21:33:29 +0430</pubDate>
+      
+      <guid>https://mojtabaseyedi.com/posts/journal-teaching-swimming-and-cycling/</guid>
+      <description>من اکثر مواقع با دوچرخه میرم سر کار، تا یک سال پیش محل کار فقط یک ربع بود با دوچرخه از خونه، ولی یک سالی هست که جامون عوض شده و الان باید نیم ساعت پا بزنم تا برسم سر کار. همین قضیه باعث میشه گاهی همکارا با من از دوچرخه سواری صحبت کنن.
+یک چند روزی بود با من از دوچرخه و علاقه به اومدن به سر کار با دوچرخه صحبت می‌کرد و از اینکه اگر دوچرخه بخره با پسرش هم می‌تونه بره پارک که اونم تنها نباشه، منم طبق معمول فقط از خوبی‌های دوچرخه می‌گفتم.</description>
+    </item>
+    
+    <item>
       <title>فقط بشین و انجام بده</title>
-      <link>https://seyedi.github.io/posts/just-sit-and-do-it/</link>
+      <link>https://mojtabaseyedi.com/posts/just-sit-and-do-it/</link>
       <pubDate>Tue, 30 Apr 2019 22:50:47 +0430</pubDate>
       
-      <guid>https://seyedi.github.io/posts/just-sit-and-do-it/</guid>
+      <guid>https://mojtabaseyedi.com/posts/just-sit-and-do-it/</guid>
       <description>حتما تا الان براتون اتفاق افتاده که میخواستید یک کاری رو انجام بدید ولی تنها کاری که کردید فقط فکر کردن بهش بوده و هی عقب افتاده و دیگه کلا از ته لیست کاراتون به بیرون از اون لیست محو شده. این موضوع برای همه پیش میاد و امیدوارم داستان من بتونه کمک کنه این موضوع کمتر براتون اتفاق بیافته.
 ایده‌آل گرایی بیجا ممنوع سال دوم دانشگاه بودم که شروع به یادگیری مباحث مربوط به وب کردم و بعد از یه مدت که یه چیزایی یادگرفته بودم دوست داشتم مطلب منتشر کنم و خیلی هم دوست داشتم بلاگ خودم رو داشته باشم.</description>
     </item>
