@@ -278,7 +278,7 @@ body.posts .header {
 
 .post a {
   color: var(--main-color);
-  border-bottom: 1px dotted currentColor;
+  /* border-bottom: 1px dotted currentColor; */
 }
 
 .post pre {
